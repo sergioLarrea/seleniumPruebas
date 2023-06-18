@@ -19,6 +19,7 @@ public class ChromeTests extends Arranque {
         String title = driver.getTitle();
         log.debug("The title of {} is {}", URL, title);
         assertThat(title).contains("Selenium WebDriver");
+        System.out.println("Test ChromeTests OK");
         driver.quit();
     }
 }
